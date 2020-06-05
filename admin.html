@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Laboratory Work 5 </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container my-container">
+            <div class="row my-row">
+                <div class="col-md-10 my-col">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="matches.html">Matches</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="fans.html">Fans</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Contacts</a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="admin.html">Admin</a>
+                          </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-2 my-col">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark my-navbar img-fluid">
+                        <a class="navbar-brand" href="#">
+                             <img src="./pics/logo.png" alt="Logo">
+                        </a>
+                    </nav>
+                </div>
+            </div>           
+        </div>
+        <div class="container my-cover">
+          <div class="row my-row">
+            <div class="col my-col">
+              <h1 class="text-center" style="color: darkgray;">Add News</h1>
+            </div>
+          </div>
+          <div class="row my-row">
+            <div class="col my-col">
+              <img class="img-fluid mx-auto d-block" src="./pics/add-image.png" alt="AddImage">
+            </div>
+            <div class="col my-col">
+              <div class="add-news">
+                <button type="button" style="width: 150px; position: relative; bottom: -180px; right: 20px;" class="btn btn-secondary">Add Image</button>                
+              </div>             
+            </div>
+          </div>
+          <div class="row my-row">
+            <div class="col my-col">
+              <div class="form-group" style="width: 300px;">
+                <label for="usr">News Title:</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+            </div>
+            <div class="col my-col">              
+            </div>
+          </div>
+          <div class="row my-row">
+            <div class="col my-col">
+              <div class="form-group" style="width: 500px;">
+                <label for="comment">News Text:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+            <div class="col my-col">
+              <div class="add-news">
+                <button type="button" style="width: 150px; position: relative; bottom: -140px; right: 20px;" class="btn btn-secondary">Add News</button>
+              </div>              
+            </div>
+          </div>
+          <div class="row my-row" style="background-color: rgb(80, 79, 79);">            
+            <div class="col my-col">
+              <p class="text-center" style="color: rgb(187, 185, 185);">Footer</p>
+            </div> 
+          </div>                     
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+.container 
+{
+    padding: 0px;
+    margin: 0px;
+}
+.my-row
+{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid gray;
+}
+.my-col
+{
+    padding: 0px;
+    margin: 0px;
+}
+.my-navbar
+{
+    height: 56px;
+}
+.img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.my.cover
+{
+    margin: auto;
+}
+.add-news
+{
+    justify-content: flex-end;
+    display: flex;
+}
+
